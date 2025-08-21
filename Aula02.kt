@@ -122,5 +122,41 @@ fun main() {
         }
 
     }
+
+    //exc 9
+    if (escolha == "9") {
+        println("Insira sua idade: ")
+        val idade = scan.nextLine().toInt()
+
+        if (idade >= 16) {
+            println("Você ja pode votar")
+        
+        } else {
+            println("voce nao pode votar ainda")
+        
+        }
+        
+    }
+
+    //exc 10
+    if (escolha == "10") {
+        val msg = """
+        Com grandes poderes
+        Vem grandes responsabilidades
+        - Tio Ben
+        """
+
+        println(msg)
+    }
+
+    //exc 11
+    if (escolha == "11") {
+        
+        const val PI = 3.14
+        
+
+        println("O valor de PI é: $PI")
+    
+    }
     
 }
